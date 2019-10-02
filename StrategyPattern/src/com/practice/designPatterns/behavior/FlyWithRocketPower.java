@@ -1,0 +1,10 @@
+package com.practice.designPatterns.behavior;
+
+public class FlyWithRocketPower implements FlyBehavior {
+
+	@Override
+	public void fly() {
+		System.out.println("Fly with rocket power");
+	}
+
+}
